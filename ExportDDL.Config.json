@@ -1,0 +1,25 @@
+{
+    "login": {
+        "server": "(localdb)\\MSSQLLocalDB",
+        "userId": "ddl_admin",
+        "connectionStringFile":".cs.xml"
+    },
+    "databases": [
+        "AdventureWorks2016"
+    ],
+    "mssqlScripter": {
+        "args": [
+            "--file-per-object",
+            "--script-drop-create",
+            "--object-permissions",
+            "--display-progress",
+            "--target-server-version 2012"
+        ],
+        "logName":"mssqlscipterlog.txt",
+        "exportDirectory":"DDL"
+    },
+    "python": {
+        "directoryPath": "python",
+        "mssqlScripterPath": "Scripts\\mssql-scripter.bat"
+    }
+}

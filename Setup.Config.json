@@ -1,0 +1,19 @@
+{
+    "python":{
+        "version":"3.9.7",
+        "32":"win32",
+        "64":"amd64",
+        "urlFormat":"https://www.python.org/ftp/python/{0}/python-{0}-embed-{1}.zip",
+        "dlFile":"python.zip",
+        "diretoryName":"python",
+        "pthFileAdd":[
+            "import site"
+        ]
+    },
+    "pip":{
+        "url":"https://bootstrap.pypa.io/get-pip.py"
+    },
+    "packages":[
+        "mssql-scripter"
+    ]
+}
